@@ -1,0 +1,9 @@
+---
+ 
+deployment:
+ 
+ tasks:
+ 
+ - export DEPLOYPATH=/home/u1295021/public_html/tes/asd
+ 
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
